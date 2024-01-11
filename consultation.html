@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="IT Solutions &amp; Business Services Responsive HTML5 Bootstrap5  Website Template" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- fav icon -->
+  <link rel="icon" href="assets/images/fav-icon/fav-icon.png" />
+
+  <!-- bootstarp -->
+  <link rel="stylesheet" href="css/vendors/bootstrap.min.css" />
+
+  <!-- animate.css file -->
+  <link rel="stylesheet" href="css/vendors/animate.css" />
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="css/vendors/swiper-bundle.min.css" />
+
+  <!-- flaticon -->
+  <link rel="stylesheet" href="css/vendors/flaticon/flaticon.css" />
+
+  <!-- fontAwesome -->
+  <link rel="stylesheet" href="css/vendors/all.min.css" />
+
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="css/vendors/bootstrap-icons-1.9.1/bootstrap-icons.css" />
+
+  <!-- Fancybox -->
+  <link rel="stylesheet" href="css/vendors/jquery.fancybox.min.css" />
+
+  <!-- fonts site preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/" />
+
+  <!-- fonts site preconnect -->
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+
+  <!-- Font Family -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&amp;display=swap" />
+
+  <!-- Add this in the head of your HTML file -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10"/> -->
+
+
+  <!-- style -->
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Free Consultation | Route Of Excellence</title>
+</head>
+
+<body class=" dark-theme ">
+  <div class="particles-js dots" id="particles-js"></div>
+  <!--Start Page Header-->
+  <nav class="navbar navbar-expand-md main_menu">
+    <div class="container px-lg-0">
+      <a class="navbar-brand" href="index.html"><img src="assets/images/logo/logo-light.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="about-us.html" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">About Us </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="about-us.html"> About Company</a></li>
+              <li><a class="dropdown-item" href="instructor.html">Our Instructor</a></li>
+              <li><a class="dropdown-item" href="our-concenr.html">Our Concerns</a></li>
+              <!--<li><a class="dropdown-item" href="faq.html">FAQs</a></li> -->
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="course.html">Course</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="event.html">event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link free-cons-btn" href="consultation.html">Free Consultation</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--End Page Header-->
+  <!-- Start inner Page hero-->
+  <section class="d-flex align-items-center page-hero  inner-page-hero " id="page-hero">
+
+    <div class="overlay-photo-image-bg parallax" data-bg-img="assets/images/hero/inner-page-hero.jpg"
+      data-bg-opacity="1"></div>
+    <div class="overlay-color" data-bg-opacity=".75"></div>
+    <div class="container">
+      <div class="hero-text-area centerd">
+        <h1 class="hero-title  wow fadeInUp" data-wow-delay=".2s">Free Consultation</h1>
+        <nav aria-label="breadcrumb ">
+          <ul class="breadcrumb wow fadeInUp" data-wow-delay=".6s">
+            <li class="breadcrumb-item"><a class="breadcrumb-link" href="#0"><i class="bi bi-house icon "></i>home</a>
+            </li>
+            <li class="breadcrumb-item active">Free Consultation</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <!-- End inner Page hero-->
+
+
+  <!-- Start event blog Section-->
+  <section class="blog blog-home mega-section" id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="cons-form text-center">
+          <h2>Schedule a Free IT Consultation:</h2>
+          <p>Time: 1 Hour</p>
+
+          <div class="contact-form-inputs wow fadeInUp" data-wow-delay=".6s">
+            <div class="custom-form-area input-boxed">
+              <!--Form To have user messages-->
+              <form class="main-form" id="consultation-form">
+                <span class="done-msg"></span>
+                <div class="row ">
+                  <div class="col-12 col-lg-6">
+                    <div class="   input-wrapper">
+                      <input class="text-input" id="full-name" name="full-name" type="text" />
+                      <label class="input-label" for="full-name"> Full Name <span class="req">*</span></label><span
+                        class="b-border"></span><span class="error-msg"></span>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <div class="   input-wrapper">
+                      <input class="text-input" id="company-name" name="UserEmail" type="text" />
+                      <label class="input-label" for="company-name"> Company Name <span
+                          class="req">*</span></label><span class="b-border"></span><span class="error-msg"></span>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-6">
+                    <div class="   input-wrapper">
+                      <input class="text-input" id="email" name="email" type="email" />
+                      <label class="input-label" for="email"> Email <span class="req">*</span></label><span
+                        class="b-border"></span><span class="error-msg"></span>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <div class="   input-wrapper">
+                      <input class="text-input" id="phone-number" name="phone-number" type="text" />
+                      <label class="input-label" for="phone-number"> Phone Number <span
+                          class="req">*</span></label><span class="b-border"></span><span class="error-msg"></span>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-6 offset-lg-3">
+                    <div class="   input-wrapper">
+                      <input class="text-input datepicker" id="date" name="date" type="date" />
+                      <label class="input-label" for="date"> Date <span class="req">*</span></label><span
+                        class="b-border"></span><span class="error-msg"></span>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <div class="input-wrapper">
+
+
+
+
+                    </div>
+                  </div>
+
+                  <div class="input-wrapper">
+                    <div class="row">
+                      <div class="col-md-5 offset-md-2">
+                        <div class="">
+                          <div class="form-check d-flex">
+                            <input class="form-check-input" type="checkbox" value="" id="service1">
+                            <label class="form-check-label ms-3" for="service1">
+                              IT & Cyber Security Consultancy Services
+                            </label>
+                          </div>
+                        </div>
+                        <div class="">
+                          <div class="form-check d-flex">
+                            <input class="form-check-input" type="checkbox" value="" id="service2">
+                            <label class="form-check-label ms-3" for="service2">
+                              Vulnerability Assessment & Penetration Testing (VAPT)
+                            </label>
+                          </div>
+                        </div>
+                        <div class="">
+                          <div class="form-check d-flex">
+                            <input class="form-check-input" type="checkbox" value="" id="service3">
+                            <label class="form-check-label ms-3" for="service3">
+                              Software Quality Assurance (SQA)
+                            </label>
+                          </div>
+                        </div>
+                        <div class="">
+                          <div class="form-check d-flex">
+                            <input class="form-check-input" type="checkbox" value="" id="service4">
+                            <label class="form-check-label ms-3" for="service4">
+                              Web application security
+                            </label>
+                          </div>
+                        </div>
+                        <div class="">
+                          <div class="form-check d-flex">
+                            <input class="form-check-input" type="checkbox" value="" id="service5">
+                            <label class="form-check-label ms-3" for="service5">
+                              iOS & Android Mobile App Development
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 offset-md-1">
+                        <div>
+                          <div class="form-check d-flex">
+                            <input class="form-check-input" type="checkbox" value="" id="service6">
+                            <label class="form-check-label ms-3" for="service6">
+                              Software development
+                            </label>
+                          </div>
+                        </div>
+                        <div class="">
+                          <div class="form-check d-flex">
+                            <input class="form-check-input" type="checkbox" value="" id="service7">
+                            <label class="form-check-label ms-3" for="service7">
+                              Search Engine Optimization (SEO)
+                            </label>
+                          </div>
+                        </div>
+                        <div class="">
+                          <div class="form-check d-flex">
+                            <input class="form-check-input" type="checkbox" value="" id="service8">
+                            <label class="form-check-label ms-3" for="service8">
+                              UI/UX Design
+                            </label>
+                          </div>
+                        </div>
+                        <div class="">
+                          <div class="form-check d-flex">
+                            <input class="form-check-input" type="checkbox" value="" id="service9">
+                            <label class="form-check-label ms-3" for="service9">
+                              Education & Training
+                            </label>
+                          </div>
+                        </div>
+                        <div class="">
+                          <div class="form-check d-flex">
+                            <input class="form-check-input" type="checkbox" value="" id="service10">
+                            <label class="form-check-label ms-3" for="service10">
+                              Website Development
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <label class="input-label" for="selected-services"> Choose Services </label>
+                  </div>
+                  <div class="col-12 submit-wrapper">
+                    <button class=" btn-solid" id="consultation-submit" type="submit"
+                      name="UserSubmit">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End event blog Section-->
+
+  <!-- Start  take-action Section-->
+  <section class="take-action elf-section has-dark-bg" id="take-action">
+    <div class="overlay-photo-image-bg  " data-bg-img="assets/images/sections-bg-images/2.jpg" data-bg-opacity=".25">
+    </div>
+    <div class="cta-wrapper">
+      <div class="container">
+        <div class="sec-heading  centered mb-0 ">
+          <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">contact us</span>
+            <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">get in totch with us</h2>
+            <p class="subtitle   wow fadeInUp " data-wow-delay=".6s">Our call operator is always on alert for your
+              problems.</p>
+          </div>
+        </div>
+        <!--Start .see-more-area-->
+        <div class=" see-more-area wow fadeInUp" data-wow-delay="0.8s"><a class=" btn-solid cta-link"
+            href="contact-us.html">contact us</a></div>
+        <!--End Of .see-more-area        -->
+      </div>
+    </div>
+  </section>
+  <!-- End  take-action Section-->
+  <!-- Start  page-footer Section-->
+  <footer class="page-footer dark-color-footer" id="page-footer">
+    <div class="overlay-photo-image-bg" data-bg-img="assets/images/sections-bg-images/footer-bg-1.jpg"
+      data-bg-opacity=".25"></div>
+    <div class="container">
+      <div class="row footer-cols">
+        <div class="col-12 col-md-8 col-lg-4 footer-col">
+          <img class="img-fluid footer-logo" loading="lazy" src="assets/images/logo/logo-light.png" alt="logo" />
+          <div class="footer-col-content-wrapper">
+            <p class="footer-text-about-us">
+              Global Reach, Local Expertise: Bringing World-Class [Your Service] Solutions to Every Corner of the Globe.
+            </p>
+          </div>
+          <div class="form-area">
+            <div class="mailchimp-form">
+              <form class="one-field-form" method="post" action="#0">
+                <div class="field-group">
+                  <label class="email-label" for="email-input">
+                    Subscribe to our news letter</label>
+                  <input class="email-input" type="email" value="" name="EMAIL" id="email-input"
+                    placeholder="Email Address" autocomplete="off" />
+                  <div class="cta-area">
+                    <input class="btn-solid subscribe-btn" type="submit" value="Subscribe" name="subscribe" />
+                  </div>
+                </div>
+                <span class="email-notice">*we will not share your personal info</span>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 footer-col">
+          <h2 class="footer-col-title">Information</h2>
+          <div class="footer-col-content-wrapper">
+            <ul class="footer-menu">
+              <li class="footer-menu-item">
+                <a class="footer-menu-link" href="about-us.html">About Company</a>
+              </li>
+              <li class="footer-menu-item">
+                <a class="footer-menu-link" href="instructor.html">Our Instructors</a>
+              </li>
+              <li class="footer-menu-item">
+                <a class="footer-menu-link" href="our-concenr.html">Our Concerns</a>
+              </li>
+              <li class="footer-menu-item">
+                <a class="footer-menu-link" href="faq.html">FAQs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 footer-col">
+          <h2 class="footer-col-title">Top Services</h2>
+          <div class="footer-col-content-wrapper">
+            <ul class="footer-menu">
+              <li class="footer-menu-item">
+                <a class="footer-menu-link" href="services.html">VAPT</a>
+              </li>
+              <li class="footer-menu-item">
+                <a class="footer-menu-link" href="course.html">Education & Training</a>
+              </li>
+              <li class="footer-menu-item">
+                <a class="footer-menu-link" href="services.html">Software Development</a>
+              </li>
+              <li class="footer-menu-item">
+                <a class="footer-menu-link" href="services.html">Website Development</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 footer-col">
+          <h2 class="footer-col-title">contact information</h2>
+          <div class="footer-col-content-wrapper">
+            <div class="contact-info-card">
+              <i class="bi bi-envelope icon"></i><a class="text-lowercase info"
+                href="mailto:info@adwareit.com">info@adwareit.com</a>
+            </div>
+            <div class="contact-info-card">
+              <i class="bi bi-geo-alt icon"></i><span class="text-lowercase info"><a target="_blank"
+                  href="https://www.google.com/maps/dir/23.7210476,90.3896607/adware+it/@23.7628962,90.338321,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x24aa8765c2ecab67:0x8a4a0cbe0cd1adc6!2m2!1d90.3693808!2d23.804716?entry=ttu">114,Begum
+                  Rokeya Sarani, Senpara Parbata, Mirpur-10, Dhaka- 1216</a></h6></span>
+            </div>
+            <div class="contact-info-card">
+              <i class="bi bi-phone icon"></i><a class="info" href="tel:+8801715-830662 ">+8801715-830662 </a> <a
+                class="info" href="tel:+8801601830662 ">+8801601830662 </a>
+            </div>
+            <div class="contact-info-card">
+              <div class="social-icons">
+                <div class="sc-wrapper dir-row sc-size-32">
+                  <ul class="sc-list">
+                    <li class="sc-item" title="Facebook">
+                      <a target="_blank" class="sc-link" href="https://www.linkedin.com/company/adwareit/"
+                        title="social media icon"><i class="fab fa-linkedin-in sc-icon"></i></a>
+                    </li>
+                    <li class="sc-item" title="Facebook">
+                      <a target="_blank" class="sc-link" href="https://www.facebook.com/adwareit"
+                        title="social media icon"><i class="fab fa-facebook-f sc-icon"></i></a>
+                    </li>
+                    <li class="sc-item" title="youtube">
+                      <a target="_blank" class="sc-link" href="https://www.youtube.com/@adwareit"
+                        title="social media icon"><i class="fab fa-youtube sc-icon"></i></a>
+                    </li>
+                    <li class="sc-item" title="instagram">
+                      <a target="_blank" class="sc-link" href="https://www.instagram.com/adware_it"
+                        title="social media icon"><i class="fab fa-instagram sc-icon"></i></a>
+                    </li>
+                    <li class="sc-item" title="twitter">
+                      <a target="_blank" class="sc-link" href="https://twitter.com/adware_it"
+                        title="social media icon"><i class="fab fa-twitter sc-icon"></i></a>
+                    </li>
+                    <li class="sc-item" title="whatsapp">
+                      <a target="_blank" class="sc-link" href="https://wa.me/message/QCBYWSUEKPQVE1 "
+                        title="social media icon"><i class="fab fa-whatsapp sc-icon"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyrights">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 d-flex justify-content-start">
+            <p class="creadits">
+              &copy; Copyright 2023.
+
+              <a class="link" href="https://www.facebook.com/adwareit">Adware IT</a>
+            </p>
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-end">
+            <div class="terms-links">
+              <a href="terms.html">Terms and Conditions</a> | <a href="privacy.html">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End  page-footer Section-->
+  <!-- Start loading-screen Component-->
+  <!-- <div class="loading-screen" id="loading-screen"><span class="bar top-bar"></span><span class="bar down-bar"></span><span class="progress-line"></span><span class="loading-counter"> </span></div> -->
+  <!-- End loading-screen Component-->
+  <!-- Start back-to-top Component-->
+  <div class="back-to-top" id="back-to-top"><i class="bi bi-arrow-up icon "></i>
+  </div>
+  <!-- End back-to-top Component-->
+  <!--     JQuery     -->
+  <script src="js/vendors/jquery-3.6.1.min.js"></script>
+
+  <!--     bootstrap     -->
+  <script src="js/vendors/bootstrap.bundle.min.js"></script>
+
+  <!--     wow     -->
+  <script src="js/vendors/wow.min.js"></script>
+
+  <!--     swiper     -->
+  <script src="js/vendors/swiper-bundle.min.js"></script>
+
+  <!--     fancybox     -->
+  <script src="js/vendors/jquery.fancybox.min.js"></script>
+
+  <!--     countTo     -->
+  <script src="js/vendors/jquery.countTo.js"></script>
+  <!--     particles     -->
+  <script src="js/vendors/particles.min.js"></script>
+  <!--     main     -->
+  <!-- <script src="js/main.js"></script> -->
+
+  <!-- SweetAlert library -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+  <!-- mail -->
+
+  <script>
+
+    let isValidInput = false,
+      isValidEmail = false;
+
+    function ValidateNotEmptyInput(input, errMsg) {
+      if (input.length) {
+        if (input.val().trim() === "") {
+          $(input).siblings(".error-msg").text(errMsg).css("display", "block");
+          isValidInput = false;
+        } else {
+          $(input).siblings(".error-msg").text("").css("display", "none");
+          isValidInput = true;
+        }
+      }
+    }
+
+    function validateEmailInput(emailInput) {
+      let pattern =
+        /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+      if (pattern.test(emailInput.val()) === false) {
+        $(emailInput)
+          .siblings(".error-msg")
+          .text("Please Enter a valid Email")
+          .css("display", "block");
+        isValidEmail = false;
+      } else {
+        $(emailInput).siblings(".error-msg").text("").css("display", "none");
+        isValidEmail = true;
+      }
+    }
+
+    const consultantForm = $('#consultation-form')
+    fName = $("#full-name"),
+      cName = $("#company-name"),
+      clientEmail = $("#email"),
+      pNumber = $("#phone-number"),
+      meetingDate = $("#date"),
+      consultantSubmit = $("#consultation-submit")
+
+
+    consultantSubmit.on('click', function (e) {
+      e.preventDefault();
+
+      ValidateNotEmptyInput(fName, "Please Enter Your Full Name");
+      ValidateNotEmptyInput(cName, "Please Enter Your Company Name");
+      ValidateNotEmptyInput(clientEmail, "Please Enter Your Email");
+      ValidateNotEmptyInput(pNumber, "Please Enter Your Phone Number");
+      ValidateNotEmptyInput(meetingDate, "Please Select Date");
+      validateEmailInput(clientEmail)
+      const selectedServices = [];
+      for (let i = 1; i <= 10; i++) {
+        const checkbox = document.getElementById(`service${i}`);
+        if (checkbox.checked) {
+          selectedServices.push(checkbox.nextElementSibling.textContent.trim());
+        }
+      }
+
+      if (isValidInput && isValidEmail) {
+        const fullName = fName.val();
+        const companyName = cName.val();
+        const email = clientEmail.val();
+        const phoneNumber = pNumber.val();
+        const date = meetingDate.val();
+        sendConsultationEmail(fullName, companyName, email, phoneNumber, date, selectedServices)
+      }
+    })
+
+
+    function sendConsultationEmail(fullName, companyName, email, phoneNumber, date, selectedServices) {
+
+      fetch('consultation', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ fullName, companyName, email, phoneNumber, date, selectedServices }),
+      })
+        .then(response => {
+          if (response.ok) {
+            Swal.fire({
+              icon: 'success',
+              title: 'Success',
+              text: 'Email sent successfully!',
+            });
+          } else {
+            Swal.fire({
+              icon: 'error',
+              title: 'Error',
+              text: 'Error sending email!',
+            });
+          }
+        })
+        .catch(error => {
+          console.error(error);
+          Swal.fire({
+            icon: 'error',
+            title: 'Error',
+            text: 'Error sending email!',
+          });
+        });
+    }
+  </script>
+
+</body>
+
+
+</html>

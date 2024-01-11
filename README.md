@@ -1,1 +1,1 @@
-# adwareit.com
+# adware-it
